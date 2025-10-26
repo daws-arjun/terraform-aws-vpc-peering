@@ -1,7 +1,6 @@
 # Terraform AWS VPC
 
 This module creates the following resources.
-
 * VPC
 * IGW
 * 2 Public subnets in us-east-1a and us-east-1b AZ
@@ -18,6 +17,8 @@ This module creates the following resources.
 * VPC to default VPC peering
 * Public route table to default VPC route
 * Default VPC main route table to created VPC route
-* Inputs
+
+### Inputs
+
 * vpc_cidr - (Required). User must supply the CIDR for VPC.
 * project_name - (Required). User must supply the project nae.
